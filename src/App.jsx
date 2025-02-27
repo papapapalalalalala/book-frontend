@@ -10,7 +10,7 @@ function App() {
     fetchBooks();
   },[]);
 
-  const handleInputChange = (event)=>{
+  const handleInputChange = (event) =>{
     const {name,value} = event.target;
     setNewBooks({...newBook,[name]:value});
 }
